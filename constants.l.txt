@@ -7,7 +7,8 @@ int cons=0;
 .|\n {}
 %%
 int yywrap(void) {
-return 1; 
+return 1;
+}
 int main(void)
 {
 FilE *f;
